@@ -47,7 +47,7 @@ app.post("/login",(req, res)=> {
             res.send({message: "successfull register"})
         }
     })
-    
+
 })
 
 app.post("/Register",(req, res)=> {
@@ -55,7 +55,7 @@ app.post("/Register",(req, res)=> {
 })
 
 app.listen(9002,()=>{
-    console.log("okay bro")
+    console.log("running on 9002")
 })
 
 
